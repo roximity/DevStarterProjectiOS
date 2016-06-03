@@ -16,6 +16,10 @@
 		7323E5F21D02383C00AC8444 /* DevStarterProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E5F11D02383C00AC8444 /* DevStarterProjectTests.m */; };
 		7323E60C1D02389700AC8444 /* libROXIMITYSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E5FC1D02389700AC8444 /* libROXIMITYSDK.a */; };
 		7323E60D1D02389800AC8444 /* ROXIMITYSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7323E60B1D02389700AC8444 /* ROXIMITYSDK.bundle */; };
+		7323E60F1D0238E900AC8444 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E60E1D0238E900AC8444 /* AdSupport.framework */; };
+		7323E6111D0238F500AC8444 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6101D0238F500AC8444 /* CoreTelephony.framework */; };
+		7323E6131D0238FD00AC8444 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */; };
+		7323E6151D02390400AC8444 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6141D02390400AC8444 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		7323E6091D02389700AC8444 /* ROXSignalEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalEventType.h; sourceTree = "<group>"; };
 		7323E60A1D02389700AC8444 /* ROXSignalOriginType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalOriginType.h; sourceTree = "<group>"; };
 		7323E60B1D02389700AC8444 /* ROXIMITYSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ROXIMITYSDK.bundle; sourceTree = "<group>"; };
+		7323E60E1D0238E900AC8444 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7323E6101D0238F500AC8444 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7323E6141D02390400AC8444 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7323E60F1D0238E900AC8444 /* AdSupport.framework in Frameworks */,
+				7323E6111D0238F500AC8444 /* CoreTelephony.framework in Frameworks */,
+				7323E6131D0238FD00AC8444 /* MobileCoreServices.framework in Frameworks */,
+				7323E6151D02390400AC8444 /* SystemConfiguration.framework in Frameworks */,
 				7323E60C1D02389700AC8444 /* libROXIMITYSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +93,10 @@
 		7323E5CB1D02383C00AC8444 = {
 			isa = PBXGroup;
 			children = (
+				7323E6141D02390400AC8444 /* SystemConfiguration.framework */,
+				7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */,
+				7323E6101D0238F500AC8444 /* CoreTelephony.framework */,
+				7323E60E1D0238E900AC8444 /* AdSupport.framework */,
 				7323E5D61D02383C00AC8444 /* DevStarterProject */,
 				7323E5F01D02383C00AC8444 /* DevStarterProjectTests */,
 				7323E5D51D02383C00AC8444 /* Products */,
