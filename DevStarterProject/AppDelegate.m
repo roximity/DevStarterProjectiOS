@@ -66,4 +66,44 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void) application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+    [ROXIMITYEngine didFailToRegisterForRemoteNotifications:error];
+}
+
+-(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    [ROXIMITYEngine didRegisterForRemoteNotifications:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
+    NSLog(@"Received remote notification with content available: %@", userInfo);
+    BOOL roximityNotification = [ROXIMITYEngine didReceiveRemoteNotification:application userInfo:userInfo fetchCompletionHandler:completionHandler];
+    if (roximityNotification){
+        NSLog(@"Notification was issued by ROXIMITY and was processed.");
+    } else {
+        // Handle notification
+    }
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo{
+    NSLog(@"Received remote notification, %@", userInfo);
+    BOOL roximityNotification = [ROXIMITYEngine didReceiveRemoteNotification:application userInfo:userInfo];
+    if (roximityNotification){
+        NSLog(@"Notification was issued by ROXIMITY and was processed.");
+    } else {
+        // Handle notification
+    }
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    NSLog(@"Received local notification, %@", notification.userInfo);
+    BOOL roximityNotification = [ROXIMITYEngine didReceiveLocalNotification:(UIApplication *) application notification:notification];
+    if (roximityNotification){
+        NSLog(@"Notification was issued by ROXIMITY and was processed.");
+    } else {
+        // Handle notification
+    }
+}
+
 @end
