@@ -20,6 +20,8 @@
 		7323E6111D0238F500AC8444 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6101D0238F500AC8444 /* CoreTelephony.framework */; };
 		7323E6131D0238FD00AC8444 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */; };
 		7323E6151D02390400AC8444 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6141D02390400AC8444 /* SystemConfiguration.framework */; };
+		7323E6181D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */; };
+		7323E6191D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		7323E6101D0238F500AC8444 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7323E6141D02390400AC8444 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7323E6161D023FF300AC8444 /* DSRoxSDKObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRoxSDKObserver.h; sourceTree = "<group>"; };
+		7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRoxSDKObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				7323E5E51D02383C00AC8444 /* LaunchScreen.storyboard */,
 				7323E5E81D02383C00AC8444 /* Info.plist */,
 				7323E5D71D02383C00AC8444 /* Supporting Files */,
+				7323E6161D023FF300AC8444 /* DSRoxSDKObserver.h */,
+				7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */,
 			);
 			path = DevStarterProject;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				7323E5DF1D02383C00AC8444 /* ViewController.m in Sources */,
 				7323E5DC1D02383C00AC8444 /* AppDelegate.m in Sources */,
 				7323E5D91D02383C00AC8444 /* main.m in Sources */,
+				7323E6181D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7323E5F21D02383C00AC8444 /* DevStarterProjectTests.m in Sources */,
+				7323E6191D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

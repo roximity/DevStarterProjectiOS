@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DSRoxSDKObserver.h"
 
 @interface ViewController ()
+
+@property (nonatomic, retain) DSRoxSDKObserver *sdkObserver;
 
 @end
 
@@ -16,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.sdkObserver = [[DSRoxSDKObserver alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
