@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSDictionary * roximityEngineOptions = @{
+                                             kROXEngineOptionsUserTargetingLimited : @(NO),
+                                             kROXEngineOptionsMuteBluetoothOffAlert: @(NO),
+                                             kROXEngineOptionsMuteLocationPermissionAlert : @(NO),
+                                             kROXEngineOptionsMuteNotificationPermissionAlert: @(NO),
+                                             kROXEngineOptionsMuteRequestAlerts: @(NO),
+                                             kROXEngineOptionsReservedRegions: [NSNumber numberWithInt:0],
+                                             kROXEngineOptionsStartLocationDeactivated: @(NO)
+                                             };
+    
+    [ROXIMITYEngine startWithLaunchOptions:launchOptions engineOptions:roximityEngineOptions applicationId:@"<YOUR APPLICATION ID HERE>" andEngineDelegate:self];
+    return YES;
+    
     return YES;
 }
 
