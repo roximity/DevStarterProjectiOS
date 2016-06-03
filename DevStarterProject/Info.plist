@@ -22,6 +22,11 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application uses
+iBeacon which requires permission to use location
+in the background to deliver unique,
+location-based experiences.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
