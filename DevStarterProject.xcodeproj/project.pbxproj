@@ -14,14 +14,14 @@
 		7323E5E41D02383C00AC8444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7323E5E31D02383C00AC8444 /* Assets.xcassets */; };
 		7323E5E71D02383C00AC8444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7323E5E51D02383C00AC8444 /* LaunchScreen.storyboard */; };
 		7323E5F21D02383C00AC8444 /* DevStarterProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E5F11D02383C00AC8444 /* DevStarterProjectTests.m */; };
-		7323E60C1D02389700AC8444 /* libROXIMITYSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E5FC1D02389700AC8444 /* libROXIMITYSDK.a */; };
-		7323E60D1D02389800AC8444 /* ROXIMITYSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7323E60B1D02389700AC8444 /* ROXIMITYSDK.bundle */; };
 		7323E60F1D0238E900AC8444 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E60E1D0238E900AC8444 /* AdSupport.framework */; };
 		7323E6111D0238F500AC8444 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6101D0238F500AC8444 /* CoreTelephony.framework */; };
 		7323E6131D0238FD00AC8444 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */; };
 		7323E6151D02390400AC8444 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323E6141D02390400AC8444 /* SystemConfiguration.framework */; };
 		7323E6181D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */; };
 		7323E6191D023FF300AC8444 /* DSRoxSDKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */; };
+		73488B331D05D78000C24251 /* libROXIMITYSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73488B231D05D78000C24251 /* libROXIMITYSDK.a */; };
+		73488B341D05D78000C24251 /* ROXIMITYSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73488B321D05D78000C24251 /* ROXIMITYSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,27 +48,27 @@
 		7323E5ED1D02383C00AC8444 /* DevStarterProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevStarterProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7323E5F11D02383C00AC8444 /* DevStarterProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevStarterProjectTests.m; sourceTree = "<group>"; };
 		7323E5F31D02383C00AC8444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7323E5FC1D02389700AC8444 /* libROXIMITYSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libROXIMITYSDK.a; sourceTree = "<group>"; };
-		7323E5FE1D02389700AC8444 /* ROXActionPresentationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXActionPresentationType.h; sourceTree = "<group>"; };
-		7323E5FF1D02389700AC8444 /* ROXBeaconRangeUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXBeaconRangeUpdateDelegate.h; sourceTree = "<group>"; };
-		7323E6001D02389700AC8444 /* ROXDeviceHookDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXDeviceHookDelegate.h; sourceTree = "<group>"; };
-		7323E6011D02389700AC8444 /* ROXEventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXEventInfo.h; sourceTree = "<group>"; };
-		7323E6021D02389700AC8444 /* ROXIMITYAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYAction.h; sourceTree = "<group>"; };
-		7323E6031D02389700AC8444 /* ROXIMITYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYEngine.h; sourceTree = "<group>"; };
-		7323E6041D02389700AC8444 /* ROXIMITYSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYSDK.h; sourceTree = "<group>"; };
-		7323E6051D02389700AC8444 /* ROXIMITYSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYSignal.h; sourceTree = "<group>"; };
-		7323E6061D02389700AC8444 /* ROXNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXNotifications.h; sourceTree = "<group>"; };
-		7323E6071D02389700AC8444 /* ROXPublicActionReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXPublicActionReporter.h; sourceTree = "<group>"; };
-		7323E6081D02389700AC8444 /* ROXPublicSignalReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXPublicSignalReporter.h; sourceTree = "<group>"; };
-		7323E6091D02389700AC8444 /* ROXSignalEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalEventType.h; sourceTree = "<group>"; };
-		7323E60A1D02389700AC8444 /* ROXSignalOriginType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalOriginType.h; sourceTree = "<group>"; };
-		7323E60B1D02389700AC8444 /* ROXIMITYSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ROXIMITYSDK.bundle; sourceTree = "<group>"; };
 		7323E60E1D0238E900AC8444 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		7323E6101D0238F500AC8444 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7323E6121D0238FD00AC8444 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7323E6141D02390400AC8444 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7323E6161D023FF300AC8444 /* DSRoxSDKObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRoxSDKObserver.h; sourceTree = "<group>"; };
 		7323E6171D023FF300AC8444 /* DSRoxSDKObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRoxSDKObserver.m; sourceTree = "<group>"; };
+		73488B231D05D78000C24251 /* libROXIMITYSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libROXIMITYSDK.a; sourceTree = "<group>"; };
+		73488B251D05D78000C24251 /* ROXActionPresentationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXActionPresentationType.h; sourceTree = "<group>"; };
+		73488B261D05D78000C24251 /* ROXBeaconRangeUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXBeaconRangeUpdateDelegate.h; sourceTree = "<group>"; };
+		73488B271D05D78000C24251 /* ROXDeviceHookDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXDeviceHookDelegate.h; sourceTree = "<group>"; };
+		73488B281D05D78000C24251 /* ROXEventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXEventInfo.h; sourceTree = "<group>"; };
+		73488B291D05D78000C24251 /* ROXIMITYAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYAction.h; sourceTree = "<group>"; };
+		73488B2A1D05D78000C24251 /* ROXIMITYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYEngine.h; sourceTree = "<group>"; };
+		73488B2B1D05D78000C24251 /* ROXIMITYSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYSDK.h; sourceTree = "<group>"; };
+		73488B2C1D05D78000C24251 /* ROXIMITYSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXIMITYSignal.h; sourceTree = "<group>"; };
+		73488B2D1D05D78000C24251 /* ROXNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXNotifications.h; sourceTree = "<group>"; };
+		73488B2E1D05D78000C24251 /* ROXPublicActionReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXPublicActionReporter.h; sourceTree = "<group>"; };
+		73488B2F1D05D78000C24251 /* ROXPublicSignalReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXPublicSignalReporter.h; sourceTree = "<group>"; };
+		73488B301D05D78000C24251 /* ROXSignalEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalEventType.h; sourceTree = "<group>"; };
+		73488B311D05D78000C24251 /* ROXSignalOriginType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROXSignalOriginType.h; sourceTree = "<group>"; };
+		73488B321D05D78000C24251 /* ROXIMITYSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ROXIMITYSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				7323E6111D0238F500AC8444 /* CoreTelephony.framework in Frameworks */,
 				7323E6131D0238FD00AC8444 /* MobileCoreServices.framework in Frameworks */,
 				7323E6151D02390400AC8444 /* SystemConfiguration.framework in Frameworks */,
-				7323E60C1D02389700AC8444 /* libROXIMITYSDK.a in Frameworks */,
+				73488B331D05D78000C24251 /* libROXIMITYSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +119,9 @@
 		7323E5D61D02383C00AC8444 /* DevStarterProject */ = {
 			isa = PBXGroup;
 			children = (
-				7323E5FC1D02389700AC8444 /* libROXIMITYSDK.a */,
-				7323E5FD1D02389700AC8444 /* ROXIMITYSDK */,
-				7323E60B1D02389700AC8444 /* ROXIMITYSDK.bundle */,
+				73488B231D05D78000C24251 /* libROXIMITYSDK.a */,
+				73488B241D05D78000C24251 /* ROXIMITYSDK */,
+				73488B321D05D78000C24251 /* ROXIMITYSDK.bundle */,
 				7323E5DA1D02383C00AC8444 /* AppDelegate.h */,
 				7323E5DB1D02383C00AC8444 /* AppDelegate.m */,
 				7323E5DD1D02383C00AC8444 /* ViewController.h */,
@@ -154,22 +154,22 @@
 			path = DevStarterProjectTests;
 			sourceTree = "<group>";
 		};
-		7323E5FD1D02389700AC8444 /* ROXIMITYSDK */ = {
+		73488B241D05D78000C24251 /* ROXIMITYSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7323E5FE1D02389700AC8444 /* ROXActionPresentationType.h */,
-				7323E5FF1D02389700AC8444 /* ROXBeaconRangeUpdateDelegate.h */,
-				7323E6001D02389700AC8444 /* ROXDeviceHookDelegate.h */,
-				7323E6011D02389700AC8444 /* ROXEventInfo.h */,
-				7323E6021D02389700AC8444 /* ROXIMITYAction.h */,
-				7323E6031D02389700AC8444 /* ROXIMITYEngine.h */,
-				7323E6041D02389700AC8444 /* ROXIMITYSDK.h */,
-				7323E6051D02389700AC8444 /* ROXIMITYSignal.h */,
-				7323E6061D02389700AC8444 /* ROXNotifications.h */,
-				7323E6071D02389700AC8444 /* ROXPublicActionReporter.h */,
-				7323E6081D02389700AC8444 /* ROXPublicSignalReporter.h */,
-				7323E6091D02389700AC8444 /* ROXSignalEventType.h */,
-				7323E60A1D02389700AC8444 /* ROXSignalOriginType.h */,
+				73488B251D05D78000C24251 /* ROXActionPresentationType.h */,
+				73488B261D05D78000C24251 /* ROXBeaconRangeUpdateDelegate.h */,
+				73488B271D05D78000C24251 /* ROXDeviceHookDelegate.h */,
+				73488B281D05D78000C24251 /* ROXEventInfo.h */,
+				73488B291D05D78000C24251 /* ROXIMITYAction.h */,
+				73488B2A1D05D78000C24251 /* ROXIMITYEngine.h */,
+				73488B2B1D05D78000C24251 /* ROXIMITYSDK.h */,
+				73488B2C1D05D78000C24251 /* ROXIMITYSignal.h */,
+				73488B2D1D05D78000C24251 /* ROXNotifications.h */,
+				73488B2E1D05D78000C24251 /* ROXPublicActionReporter.h */,
+				73488B2F1D05D78000C24251 /* ROXPublicSignalReporter.h */,
+				73488B301D05D78000C24251 /* ROXSignalEventType.h */,
+				73488B311D05D78000C24251 /* ROXSignalOriginType.h */,
 			);
 			path = ROXIMITYSDK;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7323E5E71D02383C00AC8444 /* LaunchScreen.storyboard in Resources */,
-				7323E60D1D02389800AC8444 /* ROXIMITYSDK.bundle in Resources */,
+				73488B341D05D78000C24251 /* ROXIMITYSDK.bundle in Resources */,
 				7323E5E41D02383C00AC8444 /* Assets.xcassets in Resources */,
 				7323E5E21D02383C00AC8444 /* Main.storyboard in Resources */,
 			);
@@ -490,6 +490,7 @@
 				7323E5F81D02383C00AC8444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7323E5F91D02383C00AC8444 /* Build configuration list for PBXNativeTarget "DevStarterProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				7323E5FB1D02383C00AC8444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
